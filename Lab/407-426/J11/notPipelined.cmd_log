@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/407 - 426/J11/notPipelined.xst" -ofn "D:/407 - 426/J11/notPipelined.syr" 

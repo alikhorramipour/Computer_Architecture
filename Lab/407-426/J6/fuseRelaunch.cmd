@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/407-426/J6/tbShiftRegister_isim_beh.exe" -prj "D:/407-426/J6/tbShiftRegister_beh.prj" "work.tbShiftRegister" 

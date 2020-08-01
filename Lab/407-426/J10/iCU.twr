@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml iCU.twx iCU.ncd -o iCU.twr iCU.pcf
+
+Design file:              iCU.ncd
+Physical constraint file: iCU.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock input<12> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+output<0>   |    9.467(F)|output_9_not0001  |   0.000|
+output<1>   |    8.837(F)|output_9_not0001  |   0.000|
+output<2>   |    8.921(F)|output_2_or0000   |   0.000|
+output<3>   |   10.046(F)|output_3_not0001  |   0.000|
+output<4>   |    9.356(F)|output_4_not0001  |   0.000|
+output<5>   |    7.792(F)|output_5_not0001  |   0.000|
+output<6>   |    8.914(F)|output_6_not0001  |   0.000|
+output<7>   |    9.291(F)|output_7_not0001  |   0.000|
+output<8>   |    8.786(F)|output_8_not0001  |   0.000|
+output<10>  |    8.983(F)|output_10_not0001 |   0.000|
+output<11>  |    9.349(F)|output_11_not0001 |   0.000|
+output<12>  |    8.687(F)|output_12_not0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock input<13> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+output<0>   |    8.704(F)|output_9_not0001  |   0.000|
+output<1>   |    8.074(F)|output_9_not0001  |   0.000|
+output<2>   |    7.601(F)|output_2_or0000   |   0.000|
+output<3>   |    8.596(F)|output_3_not0001  |   0.000|
+output<4>   |    9.307(F)|output_4_not0001  |   0.000|
+output<5>   |    7.743(F)|output_5_not0001  |   0.000|
+output<6>   |    8.845(F)|output_6_not0001  |   0.000|
+output<7>   |    9.108(F)|output_7_not0001  |   0.000|
+output<8>   |    8.381(F)|output_8_not0001  |   0.000|
+output<10>  |    8.657(F)|output_10_not0001 |   0.000|
+output<11>  |    8.238(F)|output_11_not0001 |   0.000|
+output<12>  |    9.582(F)|output_12_not0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock input<14> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+output<0>   |   10.567(F)|output_9_not0001  |   0.000|
+output<1>   |    9.937(F)|output_9_not0001  |   0.000|
+output<2>   |    9.990(F)|output_2_or0000   |   0.000|
+output<3>   |   10.972(F)|output_3_not0001  |   0.000|
+output<4>   |   11.251(F)|output_4_not0001  |   0.000|
+output<5>   |    9.687(F)|output_5_not0001  |   0.000|
+output<6>   |   11.082(F)|output_6_not0001  |   0.000|
+output<7>   |    8.269(F)|output_7_not0001  |   0.000|
+output<8>   |   11.663(F)|output_8_not0001  |   0.000|
+output<10>  |   11.873(F)|output_10_not0001 |   0.000|
+output<11>  |   10.968(F)|output_11_not0001 |   0.000|
+output<12>  |   11.032(F)|output_12_not0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.322|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock input<12>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    6.090|         |
+input<12>      |         |         |    1.434|    1.434|
+input<13>      |         |         |    1.039|    1.039|
+input<14>      |         |         |    3.196|    3.196|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock input<13>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    6.090|         |
+input<12>      |         |         |    2.393|    2.393|
+input<13>      |         |         |    1.505|    1.505|
+input<14>      |         |         |    3.884|    3.884|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock input<14>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    6.090|         |
+input<12>      |         |         |    1.525|    1.525|
+input<13>      |         |         |   -0.332|   -0.332|
+input<14>      |         |         |    3.460|    3.460|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed May 22 16:08:57 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 149 MB
+
+
+

@@ -1,0 +1,10 @@
+Command line:
+   CAM_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  60320
+
+Tue Apr 23 18:33:58 2019
+
+
+ Elaboration Time: 0.0624 sec

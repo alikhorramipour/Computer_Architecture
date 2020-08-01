@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/407 - 426/J10/tbiCU_isim_beh.exe" -prj "D:/407 - 426/J10/tbiCU_beh.prj" "work.tbiCU" 

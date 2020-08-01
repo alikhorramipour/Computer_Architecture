@@ -1,0 +1,8 @@
+AR fourbitline behavioral D:/407-426/J5/FourBitLine.vhd sub00/vhpl05 1554887792
+AR normalmultiplier behavioral D:/407-426/J5/NormalMultiplier.vhd sub00/vhpl07 1554888020
+EN fourbitline NULL D:/407-426/J5/FourBitLine.vhd sub00/vhpl04 1554887791
+EN halfadder NULL D:/407-426/J5/HalfAdder.vhd sub00/vhpl02 1554887787
+EN fulladder NULL D:/407-426/J5/FullAdder.vhd sub00/vhpl00 1554887789
+EN normalmultiplier NULL D:/407-426/J5/NormalMultiplier.vhd sub00/vhpl06 1554888019
+AR halfadder rtl D:/407-426/J5/HalfAdder.vhd sub00/vhpl03 1554887788
+AR fulladder gate_level D:/407-426/J5/FullAdder.vhd sub00/vhpl01 1554887790

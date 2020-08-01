@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="J9.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CPU8BIT2.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CPU8BIT2.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CPU8BIT2.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CPU8BIT2.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CPU8BIT2.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CPU8BIT2.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CPU8BIT2.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CPU8BIT2.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="CPU8BIT2.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="CPU8BIT2.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU8BIT2.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="CPU8BIT2.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPU8BIT2.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPU8BIT2.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CPU8BIT2.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CPU8BIT2.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CPU8BIT2.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="CPU8BIT2.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="CPU8BIT2.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPU8BIT2.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU8BIT2_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="CPU8BIT2_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CPU8BIT2_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CPU8BIT2_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CPU8BIT2_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CPU8BIT2_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU8BIT2_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU8BIT2_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CPU8BIT2_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="CPU8BIT2_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU8BIT2_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU8BIT2_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPU8BIT2_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CPU8BIT2_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU8BIT2_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU8BIT2_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cc.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cc.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cc.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cc.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cc.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cc_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cc_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cc_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cc_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="cpu8bit2.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="cpu8bit2.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="cpu8bit2.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1557921079" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1557921079">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921285" xil_pn:in_ck="5243991243770043934" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1557921285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU.vhd"/>
+      <outfile xil_pn:name="TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921079" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1785121451515804052" xil_pn:start_ts="1557921079">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921079" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9169703159033253156" xil_pn:start_ts="1557921079">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921079" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8878304617737313075" xil_pn:start_ts="1557921079">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921288" xil_pn:in_ck="5243991243770043934" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1557921287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU.vhd"/>
+      <outfile xil_pn:name="TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921291" xil_pn:in_ck="5243991243770043934" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4599329411924505205" xil_pn:start_ts="1557921288">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_beh.prj"/>
+      <outfile xil_pn:name="TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921291" xil_pn:in_ck="-4587292057439897883" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1317005823934180834" xil_pn:start_ts="1557921291">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1557913983" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1557913983">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8102700025312905556" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8878304617737313075" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8691802237147196772" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921254" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7367492684571030339" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921259" xil_pn:in_ck="89761773784" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4654390510640941009" xil_pn:start_ts="1557921254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CPU8BIT2.lso"/>
+      <outfile xil_pn:name="CPU8BIT2.ngc"/>
+      <outfile xil_pn:name="CPU8BIT2.ngr"/>
+      <outfile xil_pn:name="CPU8BIT2.prj"/>
+      <outfile xil_pn:name="CPU8BIT2.stx"/>
+      <outfile xil_pn:name="CPU8BIT2.syr"/>
+      <outfile xil_pn:name="CPU8BIT2.xst"/>
+      <outfile xil_pn:name="CPU8BIT2_vhdl.prj"/>
+      <outfile xil_pn:name="CPU8BIT2_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1557916556" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1124731068670446417" xil_pn:start_ts="1557916556">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921263" xil_pn:in_ck="3512874100740483831" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8325137290980601349" xil_pn:start_ts="1557921259">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU8BIT2.bld"/>
+      <outfile xil_pn:name="CPU8BIT2.ngd"/>
+      <outfile xil_pn:name="CPU8BIT2_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921266" xil_pn:in_ck="3512874100740483832" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-235656141811914689" xil_pn:start_ts="1557921263">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CPU8BIT2.pcf"/>
+      <outfile xil_pn:name="CPU8BIT2_map.map"/>
+      <outfile xil_pn:name="CPU8BIT2_map.mrp"/>
+      <outfile xil_pn:name="CPU8BIT2_map.ncd"/>
+      <outfile xil_pn:name="CPU8BIT2_map.ngm"/>
+      <outfile xil_pn:name="CPU8BIT2_map.xrpt"/>
+      <outfile xil_pn:name="CPU8BIT2_summary.xml"/>
+      <outfile xil_pn:name="CPU8BIT2_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921272" xil_pn:in_ck="-3068436149307443695" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="8251173951899154272" xil_pn:start_ts="1557921266">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU8BIT2.ncd"/>
+      <outfile xil_pn:name="CPU8BIT2.pad"/>
+      <outfile xil_pn:name="CPU8BIT2.par"/>
+      <outfile xil_pn:name="CPU8BIT2.ptwx"/>
+      <outfile xil_pn:name="CPU8BIT2.unroutes"/>
+      <outfile xil_pn:name="CPU8BIT2.xpi"/>
+      <outfile xil_pn:name="CPU8BIT2_pad.csv"/>
+      <outfile xil_pn:name="CPU8BIT2_pad.txt"/>
+      <outfile xil_pn:name="CPU8BIT2_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921280" xil_pn:in_ck="3512874100740483700" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="4026351017656627060" xil_pn:start_ts="1557921272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU8BIT2.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="cpu8bit2.bgn"/>
+      <outfile xil_pn:name="cpu8bit2.bit"/>
+      <outfile xil_pn:name="cpu8bit2.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1557921272" xil_pn:in_ck="3512874100740483700" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1557921271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU8BIT2.twr"/>
+      <outfile xil_pn:name="CPU8BIT2.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

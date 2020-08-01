@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/407-426/J6/tbShiftRegister_isim_beh.exe -prj D:/407-426/J6/tbShiftRegister_beh.prj work.tbShiftRegister 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/407-426/J6/DFF.vhd" into library work
+Parsing VHDL file "D:/407-426/J6/ShiftRegister.vhd" into library work
+Parsing VHDL file "D:/407-426/J6/tbShiftRegister.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity DFF [dff_default]
+Compiling architecture behavioral of entity ShiftRegister [shiftregister_default]
+Compiling architecture behavior of entity tbshiftregister
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable D:/407-426/J6/tbShiftRegister_isim_beh.exe
+Fuse Memory Usage: 30520 KB
+Fuse CPU Usage: 296 ms

@@ -1,0 +1,29 @@
+V3 23
+FL D:/407-426/J1/and.vhd 2019/02/20.13:58:10 P.20131013
+EN work/and_gate 1550660039 FL D:/407-426/J1/and.vhd PB ieee/std_logic_1164 1381692176
+AR work/and_gate/behavioral 1550660040 \
+      FL D:/407-426/J1/and.vhd EN work/and_gate 1550660039
+FL D:/407-426/J1/full_adder.vhd 2019/02/20.13:48:11 P.20131013
+EN work/full_adder 1550660045 FL D:/407-426/J1/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structure 1550660046 \
+      FL D:/407-426/J1/full_adder.vhd EN work/full_adder 1550660045 CP half_adder \
+      CP or_gate
+FL D:/407-426/J1/half_adder.vhd 2019/02/20.13:46:44 P.20131013
+EN work/half_adder 1550660041 FL D:/407-426/J1/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/structure 1550660042 \
+      FL D:/407-426/J1/half_adder.vhd EN work/half_adder 1550660041 CP xor_gate \
+      CP and_gate
+FL D:/407-426/J1/or.vhd 2019/02/20.13:44:45 P.20131013
+EN work/or_gate 1550660043 FL D:/407-426/J1/or.vhd PB ieee/std_logic_1164 1381692176
+AR work/or_gate/behavioral 1550660044 \
+      FL D:/407-426/J1/or.vhd EN work/or_gate 1550660043
+FL D:/407-426/J1/testbench.vhd 2019/02/20.14:21:05 P.20131013
+EN work/testbench 0 FL D:/407-426/J1/testbench.vhd PB ieee/std_logic_1164 1381692176
+AR work/testbench/tb 0 \
+      FL D:/407-426/J1/testbench.vhd EN work/testbench 0 CP work/full_adder
+FL D:/407-426/J1/xor.vhd 2019/02/20.13:58:23 P.20131013
+EN work/xor_gate 1550660037 FL D:/407-426/J1/xor.vhd PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/behavioral 1550660038 \
+      FL D:/407-426/J1/xor.vhd EN work/xor_gate 1550660037

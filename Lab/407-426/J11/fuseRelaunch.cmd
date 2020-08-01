@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/407 - 426/J11/tbnotPipelined_isim_beh.exe" -prj "D:/407 - 426/J11/tbnotPipelined_beh.prj" "work.tbnotPipelined" 

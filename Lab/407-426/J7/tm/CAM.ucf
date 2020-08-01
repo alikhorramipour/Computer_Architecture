@@ -1,0 +1,14 @@
+
+NET "Data_in[4]" LOC = P171;
+NET "Data_in[3]" LOC = P169;
+NET "Data_in[2]" LOC = P168;
+NET "Data_in[1]" LOC = P167;
+NET "Data_in[0]" LOC = P166;
+NET "RD" LOC = P162;
+NET "Reset" LOC = P165;
+NET "WR" LOC = P172;
+
+NET "clk" LOC = P184;
+
+
+NET "Match" LOC = P42;

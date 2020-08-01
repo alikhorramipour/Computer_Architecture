@@ -1,0 +1,398 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: CAM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CAM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CAM"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : CAM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/9531703-9731505/Memory/CAM.vhd" in Library work.
+Architecture behavioral of Entity cam is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CAM> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <CAM> in library <work> (Architecture <behavioral>).
+Entity <CAM> analyzed. Unit <CAM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CAM>.
+    Related source file is "D:/9531703-9731505/Memory/CAM.vhd".
+    Found 1-bit register for signal <Match>.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0000> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0001> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0002> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0003> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0004> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0005> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0006> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0007> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0008> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0009> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0010> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0011> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0012> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0013> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0014> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0015> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0016> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0017> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0018> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0019> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0020> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0021> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0022> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0023> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0024> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0025> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0026> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0027> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0028> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0029> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0030> created at line 58.
+    Found 5-bit comparator equal for signal <Match$cmp_eq0031> created at line 58.
+    Summary:
+	inferred 193 D-type flip-flop(s).
+	inferred  32 Comparator(s).
+Unit <CAM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 193
+ 1-bit register                                        : 193
+# Comparators                                          : 32
+ 5-bit comparator equal                                : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 192
+ Flip-Flops                                            : 192
+# Comparators                                          : 32
+ 5-bit comparator equal                                : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CAM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CAM, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 192
+ Flip-Flops                                            : 192
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CAM.ngr
+Top Level Output File Name         : CAM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 209
+#      LUT2                        : 14
+#      LUT2_D                      : 1
+#      LUT2_L                      : 5
+#      LUT3                        : 28
+#      LUT3_D                      : 1
+#      LUT3_L                      : 5
+#      LUT4                        : 109
+#      LUT4_D                      : 9
+#      LUT4_L                      : 36
+#      VCC                         : 1
+# FlipFlops/Latches                : 192
+#      FDE                         : 161
+#      FDRE                        : 31
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 8
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                      169  out of   3584     4%  
+ Number of Slice Flip Flops:            192  out of   7168     2%  
+ Number of 4 input LUTs:                208  out of   7168     2%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    141     7%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 192   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.666ns (Maximum Frequency: 130.453MHz)
+   Minimum input arrival time before clock: 8.693ns
+   Maximum output required time after clock: 6.216ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.666ns (frequency: 130.453MHz)
+  Total number of paths / destination ports: 3141 / 192
+-------------------------------------------------------------------------
+Delay:               7.666ns (Levels of Logic = 4)
+  Source:            ram<0>_5 (FF)
+  Destination:       ram<25>_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: ram<0>_5 to ram<25>_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.626   0.842  ram<0>_5 (ram<0>_5)
+     LUT3_D:I2->O          7   0.479   0.965  ram<14>_0_not000011111 (N41)
+     LUT4:I2->O            9   0.479   0.978  ram<14>_0_not0000111 (N14)
+     LUT4_D:I3->O         11   0.479   1.031  ram<30>_0_not0000311 (N33)
+     LUT3:I2->O            5   0.479   0.783  ram<25>_0_not00001 (ram<25>_0_not0000)
+     FDE:CE                    0.524          ram<25>_0
+    ----------------------------------------
+    Total                      7.666ns (3.066ns logic, 4.600ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 896 / 384
+-------------------------------------------------------------------------
+Offset:              8.693ns (Levels of Logic = 6)
+  Source:            Data_in<2> (PAD)
+  Destination:       Match (FF)
+  Destination Clock: clk rising
+
+  Data Path: Data_in<2> to Match
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   0.715   2.026  Data_in_2_IBUF (Data_in_2_IBUF)
+     LUT4:I0->O            1   0.479   0.704  Match_mux00331704 (Match_mux00331704)
+     LUT4:I3->O            1   0.479   0.851  Match_mux00331756 (Match_mux00331756)
+     LUT4:I1->O            1   0.479   0.976  Match_mux00331969 (Match_mux00331969)
+     LUT4:I0->O            1   0.479   0.851  Match_mux00333169 (Match_mux00333169)
+     LUT2:I1->O            1   0.479   0.000  Match_mux00333178 (Match_mux0033)
+     FDE:D                     0.176          Match
+    ----------------------------------------
+    Total                      8.693ns (3.286ns logic, 5.407ns route)
+                                       (37.8% logic, 62.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            Match (FF)
+  Destination:       Match (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Match to Match
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.626   0.681  Match (Match_OBUF)
+     OBUF:I->O                 4.909          Match_OBUF (Match)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.52 secs
+ 
+--> 
+
+Total memory usage is 277360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

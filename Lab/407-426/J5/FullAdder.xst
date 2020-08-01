@@ -1,0 +1,5 @@
+set -tmpdir "D:/407-426/J5/xst/projnav.tmp"
+set -xsthdpdir "D:/407-426/J5/xst"
+elaborate
+-ifn FullAdder.prj
+-ifmt mixed

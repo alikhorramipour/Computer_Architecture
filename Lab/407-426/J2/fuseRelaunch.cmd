@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/407-426/J2/tbMUX_isim_beh.exe" -prj "D:/407-426/J2/tbMUX_beh.prj" "work.tbMUX" 

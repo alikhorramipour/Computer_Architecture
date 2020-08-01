@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/9531703-9731505/Memory/CAM_tb_isim_beh.exe" -prj "D:/9531703-9731505/Memory/CAM_tb_beh.prj" "work.CAM_tb" 

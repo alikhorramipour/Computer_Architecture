@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/407 - 426/J11/MUX4x1.xst" -ofn "D:/407 - 426/J11/MUX4x1.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/MUX4x1.xst" -ofn "D:/407 - 426/J11/MUX4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "MUX4x1.ngc" MUX4x1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o MUX4x1_map.ncd MUX4x1.ngd MUX4x1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX4x1_map.ncd MUX4x1.ncd MUX4x1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX4x1.twx MUX4x1.ncd -o MUX4x1.twr MUX4x1.pcf 
+bitgen -intstyle ise -f MUX4x1.ut MUX4x1.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/MUX4x1.xst" -ofn "D:/407 - 426/J11/MUX4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "MUX4x1.ngc" MUX4x1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o MUX4x1_map.ncd MUX4x1.ngd MUX4x1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX4x1_map.ncd MUX4x1.ncd MUX4x1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX4x1.twx MUX4x1.ncd -o MUX4x1.twr MUX4x1.pcf 
+bitgen -intstyle ise -f MUX4x1.ut MUX4x1.ncd 

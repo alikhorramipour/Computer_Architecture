@@ -1,0 +1,11 @@
+AR xor_gate behavioral D:/407-426/J1/xor.vhd sub00/vhpl01 1550660038
+EN half_adder NULL D:/407-426/J1/half_adder.vhd sub00/vhpl04 1550660041
+AR and_gate behavioral D:/407-426/J1/and.vhd sub00/vhpl03 1550660040
+EN testbench NULL D:/407-426/J1/testbench.vhd sub00/vhpl10 1550659880
+AR or_gate behavioral D:/407-426/J1/or.vhd sub00/vhpl07 1550660044
+EN full_adder NULL D:/407-426/J1/full_adder.vhd sub00/vhpl08 1550660045
+EN or_gate NULL D:/407-426/J1/or.vhd sub00/vhpl06 1550660043
+AR full_adder structure D:/407-426/J1/full_adder.vhd sub00/vhpl09 1550660046
+AR half_adder structure D:/407-426/J1/half_adder.vhd sub00/vhpl05 1550660042
+EN xor_gate NULL D:/407-426/J1/xor.vhd sub00/vhpl00 1550660037
+EN and_gate NULL D:/407-426/J1/and.vhd sub00/vhpl02 1550660039

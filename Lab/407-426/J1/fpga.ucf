@@ -1,0 +1,43 @@
+port(clk : in std_logic;
+in_data : in std_logic;
+out_data : out std_logic;
+);
+type state is(start , got1 , got11 , got110 , got1101);
+signal current_state : states:= start;
+signal next_state : states:= start;
+process(current_state , in_data)
+begin
+case surrent_state is
+when start => 
+if(in_data = '0')then 
+next_state <= start;
+else next_state <= got1;
+when got1 => 
+if(in_data = '0')then 
+next_state <= start;
+else next_state <= got11;
+when got11 => 
+if(in_data = '1')then 
+next_state <= got11;
+else next_state <= got110;
+when got110 => 
+if(in_data = '0')then 
+next_state <= start;
+else next_state <= got1101;
+when got1101 => 
+if(in_data = '0')then 
+next_state <= start;
+else next_state <= got11;
+
+process(clk)
+begin
+if (rising_edge(clk) ='1')then 
+current_state <= next_state;
+case current_state is
+when got1101 =>
+out_data = '1'
+when others =>
+out_data = '0';
+end case;
+end if;
+end process;

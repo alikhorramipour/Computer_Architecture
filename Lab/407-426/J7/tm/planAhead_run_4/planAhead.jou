@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Apr 23 18:38:04 2019
+# Process ID: 996
+# Log file: D:/9531703-9731505/Memory/planAhead_run_4/planAhead.log
+# Journal file: D:/9531703-9731505/Memory/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/9531703-9731505/Memory/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P61 [get_ports Match]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports Match]
+endgroup
+save_constraints

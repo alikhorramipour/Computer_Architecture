@@ -1,0 +1,2 @@
+vhdl isim_temp "SecDet1101Moore.vhd"
+vhdl isim_temp "tb4Moore.vhd"

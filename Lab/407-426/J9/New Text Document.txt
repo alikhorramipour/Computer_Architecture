@@ -1,0 +1,88 @@
+-- Minimal 8 Bit CPU
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.NUMERIC_STD.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity CPU8BIT2 is
+port (
+		adress: out std_logic_vector(5 downto 0);
+		
+		akkuu: out std_logic_vector (8 downto 0); 
+		rst: in std_logic;
+		clk: in std_logic);
+end;
+
+ architecture CPU_ARCH of CPU8BIT2 is
+	signal akku: std_logic_vector(8 downto 0); -- akku(8) is carry !
+	signal adreg: std_logic_vector(5 downto 0);
+	signal pc: std_logic_vector(5 downto 0);
+	signal states: std_logic_vector(2 downto 0);
+	Type memory is array (63 downto 0) of std_logic_vector (7 downto 0);
+	Signal ram : memory;
+	
+	
+
+	
+	begin
+	Process(clk,rst)
+	variable data : std_logic_vector(7 downto 0);
+	begin
+		If (rst = '0') then
+			adreg <= (others => '0'); -- start execution at memory location 0
+			states <= "000";
+			akku <= (others => '0');
+			pc <= (others => '0');
+			
+			ram(0)<="11000010";--branch
+			ram(1)<="01010000";--add 0 to ram(16)
+			ram(2)<="01010001";--add to ram(17)
+			ram(3)<="10000101";--write accu to ram(5)
+			ram(4)<="00010010";--nor with ram(18)
+			ram(5)<="11000000";
+			ram(6)<="11000000";
+			ram(7)<="11000000";
+			ram(8)<="11000000";
+			ram(9)<="11000000";
+			ram(10)<="11000000";
+			ram(11)<="11000000";
+			ram(12)<="11000000";
+			ram(13)<="11000000";
+			ram(14)<="11000000";
+			ram(15)<="11000000";
+			ram(16)<="00000010";
+			ram(17)<="00000011";
+			ram(18)<="11111111";
+			
+			
+		elsIf rising_edge(clk) then
+			-- PC / Adress path
+			If (states = "000") then
+				data := ram(conv_integer(pc));
+				pc <= adreg + 1;
+				adreg <= data(5 downto 0);
+			else
+				data:= ram(conv_integer(adreg));
+				adreg <= pc;
+		end If;
+		-- ALU / Data Path
+		Case states is
+			when "101" => akku <= ("0" & akku(7 downto 0)) + ("0" & data(7 downto 0)); -- add
+			when "100" => akku(7 downto 0) <= akku(7 downto 0) nor data(7 downto 0); -- nor
+			when "110" => ram(conv_integer(adreg)) <= akku(7 downto 0 ); -- write to ram
+			when "111" => akku(8) <= '0'; --branch
+			when others => null; -- instr. fetch, jcc taken (000), sta (001)
+		end Case;
+		-- State machine
+		If (states /= "000") then states <= "000"; -- fetch next opcode
+		else states <= '1' & data(7 downto 6); -- execute instruction
+		end If;
+	end If;
+	end Process;
+	
+	-- output
+	adress <= adreg;
+	
+	akkuu <= akku;
+
+end CPU_ARCH;

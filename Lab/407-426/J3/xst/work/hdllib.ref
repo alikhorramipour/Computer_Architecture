@@ -1,0 +1,10 @@
+AR seqdet1101mealy behavioral D:/407-426/J3/SeqDet.vhd sub00/vhpl09 1551871510
+EN dff NULL D:/407-426/J3/DFF.vhd sub00/vhpl00 1551868488
+EN seqdet1101mealy NULL D:/407-426/J3/SeqDet.vhd sub00/vhpl08 1551871509
+EN tff NULL D:/407-426/J3/TFF.vhd sub00/vhpl02 1551870504
+AR tff behavioral D:/407-426/J3/TFF.vhd sub00/vhpl03 1551870468
+EN seqdet1101moore NULL D:/407-426/J3/SecDet1101Moore.vhd sub00/vhpl06 1551871284
+EN ripplecounter NULL D:/407-426/J3/RippleCounter.vhd sub00/vhpl04 1551870469
+AR ripplecounter behavioral D:/407-426/J3/RippleCounter.vhd sub00/vhpl05 1551870470
+AR dff behavioral D:/407-426/J3/DFF.vhd sub00/vhpl01 1551868489
+AR seqdet1101moore behavioral D:/407-426/J3/SecDet1101Moore.vhd sub00/vhpl07 1551871285

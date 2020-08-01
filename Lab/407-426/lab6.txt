@@ -1,0 +1,296 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    16:40:55 04/16/2019 
+-- Design Name: 
+-- Module Name:    D_FF - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity D_FF is
+ Port ( i : in  STD_LOGIC;
+			  rst : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           q : out  STD_LOGIC;
+           qnot : out  STD_LOGIC);
+end D_FF;
+
+architecture Behavioral of D_FF is
+
+signal q2 , qn2 : std_logic ; 
+begin
+process(rst , clk)
+begin
+	case rst is
+		when '0' =>
+			if(rising_edge(clk)) then
+				q2 <= i ; 
+				qn2 <= not i ; 
+			else
+				null;
+			end if;
+	
+		when '1'=>
+			qn2 <= '1' ; 
+			q2 <= '0' ;
+	
+	when others=>
+		null ; 
+		
+	end case;
+end process;
+	q <= q2 ; 
+	qnot <= qn2 ; 
+
+end Behavioral;
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    16:24:09 04/16/2019 
+-- Design Name: 
+-- Module Name:    shift - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity shift is
+    Port ( paralel_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           reset : in  STD_LOGIC;
+           load : in  STD_LOGIC;
+           L_R : in  STD_LOGIC_VECTOR (1 downto 0);
+           clk : in  STD_LOGIC;
+			  o : out STD_LOGIC_VECTOR (3 downto 0));
+end shift;
+
+architecture Behavioral of shift is
+
+component d_ff is
+	Port ( i : in  STD_LOGIC;
+			  rst : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           q : out  STD_LOGIC;
+           qnot : out  STD_LOGIC);
+	end component d_ff;
+component freq_divider is
+port    ( in_freq   : in   std_logic;
+              out_freq  : out  std_logic;
+              reset     : in  std_logic);
+end component freq_divider;
+	
+signal c : std_logic_vector (3 downto 0);
+signal ODff : std_logic_vector (3 downto 0);
+--signal rst : std_logic_vector (3 downto 0);
+signal newClk : std_logic;
+signal oNot : std_logic_vector (3 downto 0);
+
+
+begin
+
+f : freq_divider port map(in_freq => clk, out_freq => newClk, reset =>reset);
+u0 : d_ff port map(i => c(0), rst => reset, clk => newClk, q=>ODFF(0), qnot => oNot(0));
+u1 : d_ff port map(i => c(1), rst =>reset, clk =>newClk, q=>ODFF(1), qnot => oNot(1));
+u2 : d_ff port map(i => c(2), rst =>reset, clk =>newClk, q=>ODFF(2), qnot => oNot(2));
+u3 : d_ff port map(i => c(3), rst =>reset, clk =>newClk, q=>ODFF(3), qnot => oNot(3));
+
+process(newClk)
+begin
+	if (load ='1')then
+	
+	c <= paralel_in;
+	
+	else
+				 case L_R is
+					when "00" =>
+						c <= ODFF;
+					when "01" =>
+						c(0) <= odff(1);
+						c(1) <= ODFF(2);
+						c(2) <= ODFF(3);
+						c(3) <= ODFF(3);
+						
+					when "10" =>
+						c(0) <= odff(1);
+						c(2) <= ODFF(3);
+						c(1) <= ODFF(2);
+						c(3) <= '0';
+					when others =>
+						c(0) <= '0';
+						c(1) <= ODFF(0);
+						c(2) <= ODFF(1);
+						c(3) <= odff(2);
+						
+					
+				end case;	
+		end if;
+	O <= ODFF;
+	 
+	
+end process;
+
+end Behavioral;
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    18:17:28 04/16/2019 
+-- Design Name: 
+-- Module Name:    seven_segment - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity seven_segment is
+	port(
+		paralel_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           reset : in  STD_LOGIC;
+           load : in  STD_LOGIC;
+           L_R : in  STD_LOGIC_VECTOR (1 downto 0);
+           clk : in  STD_LOGIC;
+			  o : out STD_LOGIC_VECTOR (7 downto 0);
+			  w : out std_logic_vector(4 downto 0)
+			  );
+	
+end seven_segment;
+
+architecture Behavioral of seven_segment is
+component shift is
+    Port ( paralel_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           reset : in  STD_LOGIC;
+           load : in  STD_LOGIC;
+           L_R : in  STD_LOGIC_VECTOR (1 downto 0);
+           clk : in  STD_LOGIC;
+			  o : out STD_LOGIC_VECTOR (3 downto 0));
+end component;
+
+signal wire: std_logic_vector(3 downto 0);
+
+begin
+d : shift port map(paralel_in, reset, load, L_R, clk, wire);
+
+w <= "00001";
+process(wire)
+begin
+case wire is
+	when "0000" =>
+		o <= "00111111";
+	when "0001" =>
+			o <= "00000110";
+	when "0010" =>
+			o <= "01011011";
+	when "0011" =>
+			o <= "01001111";
+	when "0100" =>
+			o <= "01100110";
+	when "0101" =>
+			o <= "01101101";
+	when "0110" =>
+			o <= "01111101";
+	when "0111" =>
+			o <= "00000111";
+	when "1000" =>
+			o <= "01111111";
+	when "1001" =>
+			o <= "01101111";
+	when "1010" =>
+			o <= "01110111";
+	when "1011" =>
+			o <= "01111100";
+	when "1100" =>
+			o <= "01011000";
+	when "1101" =>
+			o <= "01011110";
+	when "1110" =>
+			o <= "01111011";
+	when "1111" =>
+			o <= "01110001";
+			
+	
+	when others =>
+		o <= "00000000";
+		
+end case;
+	
+
+end process;
+
+end Behavioral;
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RAM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/9531703-9731505/Memory/RAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/407-426/J7/RAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RAM/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/9531703-9731505/Memory/RAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/407-426/J7/RAM.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

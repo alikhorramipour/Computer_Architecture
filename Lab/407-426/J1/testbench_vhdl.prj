@@ -1,0 +1,6 @@
+vhdl work "D:\407-426\J1\xor.vhd"
+vhdl work "D:\407-426\J1\and.vhd"
+vhdl work "D:\407-426\J1\or.vhd"
+vhdl work "D:\407-426\J1\half_adder.vhd"
+vhdl work "D:\407-426\J1\full_adder.vhd"
+vhdl work "D:\407-426\J1\testbench.vhd"

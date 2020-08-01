@@ -1,0 +1,5 @@
+work	"FourBitLine.vhd"
+work	"FullAdder.vhd"
+work	"HalfAdder.vhd"
+work	"NormalMultiplier.vhd"
+work	"fourbitmulti.vhd"

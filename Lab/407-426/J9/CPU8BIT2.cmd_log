@@ -1,0 +1,77 @@
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J9/CPU8BIT2.xst" -ofn "D:/407 - 426/J9/CPU8BIT2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "CPU8BIT2.ngc" CPU8BIT2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
+par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
+bitgen -intstyle ise -f CPU8BIT2.ut CPU8BIT2.ncd 

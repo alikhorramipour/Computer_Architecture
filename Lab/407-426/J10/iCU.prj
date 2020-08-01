@@ -1,0 +1,4 @@
+vhdl work "Decoder4x16.vhd"
+vhdl work "Decoder3x8.vhd"
+vhdl work "Counter4bit.vhd"
+vhdl work "iCU.vhd"

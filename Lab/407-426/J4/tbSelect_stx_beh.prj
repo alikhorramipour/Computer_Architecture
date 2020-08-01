@@ -1,0 +1,4 @@
+vhdl isim_temp "FullAdder.vhd"
+vhdl isim_temp "RippleAdder.vhd"
+vhdl isim_temp "CarrySelectAdder.vhd"
+vhdl isim_temp "tbSelect.vhd"

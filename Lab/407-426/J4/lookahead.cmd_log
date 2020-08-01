@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/407-426/J4/lookahead.xst" -ofn "D:/407-426/J4/lookahead.syr" 
+xst -intstyle ise -ifn "D:/407-426/J4/lookahead.xst" -ofn "D:/407-426/J4/lookahead.syr" 

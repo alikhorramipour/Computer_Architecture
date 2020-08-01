@@ -1,0 +1,10 @@
+Command line:
+   RAm_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60245
+
+Tue Apr 23 17:48:20 2019
+
+
+ Elaboration Time: 0.0468 sec

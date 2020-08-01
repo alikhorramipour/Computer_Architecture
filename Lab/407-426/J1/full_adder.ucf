@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "cin" LOC = P183;
+NET "cout" LOC = P43;
+NET "i0" LOC = P182;
+NET "i1" LOC = P181;
+NET "s" LOC = P42;

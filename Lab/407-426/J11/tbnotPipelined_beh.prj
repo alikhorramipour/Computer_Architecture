@@ -1,0 +1,2 @@
+vhdl work "notPipelined.vhd"
+vhdl work "tbnotPipelined.vhd"

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/407-426/J4/rippleAdder.xst" -ofn "D:/407-426/J4/rippleAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 rippleAdder.ngc rippleAdder.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o rippleAdder_map.ncd rippleAdder.ngd rippleAdder.pcf 
+par -w -intstyle ise -ol high -t 1 rippleAdder_map.ncd rippleAdder.ncd rippleAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rippleAdder.twx rippleAdder.ncd -o rippleAdder.twr rippleAdder.pcf 
+bitgen -intstyle ise -f rippleAdder.ut rippleAdder.ncd 
+xst -intstyle ise -ifn "D:/407-426/J4/rippleAdder.xst" -ofn "D:/407-426/J4/rippleAdder.syr" 
+xst -intstyle ise -ifn "D:/407-426/J4/rippleAdder.xst" -ofn "D:/407-426/J4/rippleAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 rippleAdder.ngc rippleAdder.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o rippleAdder_map.ncd rippleAdder.ngd rippleAdder.pcf 
+par -w -intstyle ise -ol high -t 1 rippleAdder_map.ncd rippleAdder.ncd rippleAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rippleAdder.twx rippleAdder.ncd -o rippleAdder.twr rippleAdder.pcf 
+bitgen -intstyle ise -f rippleAdder.ut rippleAdder.ncd 
+xst -intstyle ise -ifn "D:/407-426/J4/rippleAdder.xst" -ofn "D:/407-426/J4/rippleAdder.syr" 
+xst -intstyle ise -ifn "D:/407-426/J4/rippleAdder.xst" -ofn "D:/407-426/J4/rippleAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rippleAdder.ucf -p xc3s400-pq208-5 rippleAdder.ngc rippleAdder.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o rippleAdder_map.ncd rippleAdder.ngd rippleAdder.pcf 
+par -w -intstyle ise -ol high -t 1 rippleAdder_map.ncd rippleAdder.ncd rippleAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rippleAdder.twx rippleAdder.ncd -o rippleAdder.twr rippleAdder.pcf -ucf rippleAdder.ucf 
+bitgen -intstyle ise -f rippleAdder.ut rippleAdder.ncd 

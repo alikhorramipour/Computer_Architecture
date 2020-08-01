@@ -1,0 +1,2 @@
+vhdl work "Counter4bit.vhd"
+vhdl work "tbcounter.vhd"

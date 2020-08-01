@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pipelined.xst" -ofn "D:/407 - 426/J11/Pipelined.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pipelined.xst" -ofn "D:/407 - 426/J11/Pipelined.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pipelined.xst" -ofn "D:/407 - 426/J11/Pipelined.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pipelined.ngc" Pipelined.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pipelined_map.ncd Pipelined.ngd Pipelined.pcf 
+par -w -intstyle ise -ol high -t 1 Pipelined_map.ncd Pipelined.ncd Pipelined.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pipelined.twx Pipelined.ncd -o Pipelined.twr Pipelined.pcf 
+bitgen -intstyle ise -f Pipelined.ut Pipelined.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pipelined.xst" -ofn "D:/407 - 426/J11/Pipelined.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pipelined.ngc" Pipelined.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pipelined_map.ncd Pipelined.ngd Pipelined.pcf 
+par -w -intstyle ise -ol high -t 1 Pipelined_map.ncd Pipelined.ncd Pipelined.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pipelined.twx Pipelined.ncd -o Pipelined.twr Pipelined.pcf 
+bitgen -intstyle ise -f Pipelined.ut Pipelined.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pipelined.xst" -ofn "D:/407 - 426/J11/Pipelined.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pipelined.ngc" Pipelined.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pipelined_map.ncd Pipelined.ngd Pipelined.pcf 
+par -w -intstyle ise -ol high -t 1 Pipelined_map.ncd Pipelined.ncd Pipelined.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pipelined.twx Pipelined.ncd -o Pipelined.twr Pipelined.pcf 
+bitgen -intstyle ise -f Pipelined.ut Pipelined.ncd 

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pip.ngc" Pip.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pip_map.ncd Pip.ngd Pip.pcf 
+par -w -intstyle ise -ol high -t 1 Pip_map.ncd Pip.ncd Pip.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pip.twx Pip.ncd -o Pip.twr Pip.pcf 
+bitgen -intstyle ise -f Pip.ut Pip.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pip.ngc" Pip.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pip_map.ncd Pip.ngd Pip.pcf 
+par -w -intstyle ise -ol high -t 1 Pip_map.ncd Pip.ncd Pip.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pip.twx Pip.ncd -o Pip.twr Pip.pcf 
+bitgen -intstyle ise -f Pip.ut Pip.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Pip.xst" -ofn "D:/407 - 426/J11/Pip.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Pip.ngc" Pip.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Pip_map.ncd Pip.ngd Pip.pcf 
+par -w -intstyle ise -ol high -t 1 Pip_map.ncd Pip.ncd Pip.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pip.twx Pip.ncd -o Pip.twr Pip.pcf 

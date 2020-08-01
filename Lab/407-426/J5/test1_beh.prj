@@ -1,0 +1,6 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "fourbitmulti.vhd"
+vhdl work "FourBitLine.vhd"
+vhdl work "NormalMultiplier.vhd"
+vhdl work "test1.vhd"

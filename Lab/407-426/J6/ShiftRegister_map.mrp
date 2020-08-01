@@ -1,0 +1,28 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'ShiftRegister'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off
+-c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+Target Device  : xc3s400
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Wed Apr 17 14:08:41 2019
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Map:116 - The design is empty.  No processing will be done.
+ERROR:Map:52 - Problem encountered processing RPMs. 
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------

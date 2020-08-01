@@ -1,0 +1,10 @@
+Command line:
+   tbnotPipelined_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  64297
+
+Wed May 29 16:18:53 2019
+
+
+ Elaboration Time: 0.078 sec

@@ -1,0 +1,438 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: Pipelined.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Pipelined.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Pipelined"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : Pipelined
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/407 - 426/J11/DFF.vhd" in Library work.
+Entity <dff2bit> compiled.
+Entity <dff2bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/407 - 426/J11/Multiplier2x4.vhd" in Library work.
+Architecture behavioral of Entity multiplier2x4 is up to date.
+Compiling vhdl file "D:/407 - 426/J11/DFF4bit.vhd" in Library work.
+Entity <dff4bit> compiled.
+Entity <dff4bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/407 - 426/J11/Multiplier4x8.vhd" in Library work.
+Architecture behavioral of Entity multiplier4x8 is up to date.
+Compiling vhdl file "D:/407 - 426/J11/DFF8bit.vhd" in Library work.
+Entity <dff8bit> compiled.
+Entity <dff8bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/407 - 426/J11/Pipelined.vhd" in Library work.
+Entity <pipelined> compiled.
+Entity <pipelined> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Pipelined> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DFF2bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Multiplier2x4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DFF4bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Multiplier4x8> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DFF8bit> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Pipelined> in library <work> (Architecture <behavioral>).
+Entity <Pipelined> analyzed. Unit <Pipelined> generated.
+
+Analyzing Entity <DFF2bit> in library <work> (Architecture <behavioral>).
+Entity <DFF2bit> analyzed. Unit <DFF2bit> generated.
+
+Analyzing Entity <Multiplier2x4> in library <work> (Architecture <behavioral>).
+Entity <Multiplier2x4> analyzed. Unit <Multiplier2x4> generated.
+
+Analyzing Entity <DFF4bit> in library <work> (Architecture <behavioral>).
+Entity <DFF4bit> analyzed. Unit <DFF4bit> generated.
+
+Analyzing Entity <Multiplier4x8> in library <work> (Architecture <behavioral>).
+Entity <Multiplier4x8> analyzed. Unit <Multiplier4x8> generated.
+
+Analyzing Entity <DFF8bit> in library <work> (Architecture <behavioral>).
+Entity <DFF8bit> analyzed. Unit <DFF8bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DFF2bit>.
+    Related source file is "D:/407 - 426/J11/DFF.vhd".
+    Found 2-bit register for signal <q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DFF2bit> synthesized.
+
+
+Synthesizing Unit <Multiplier2x4>.
+    Related source file is "D:/407 - 426/J11/Multiplier2x4.vhd".
+    Found 2x2-bit multiplier for signal <result>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplier2x4> synthesized.
+
+
+Synthesizing Unit <DFF4bit>.
+    Related source file is "D:/407 - 426/J11/DFF4bit.vhd".
+    Found 4-bit register for signal <q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <DFF4bit> synthesized.
+
+
+Synthesizing Unit <Multiplier4x8>.
+    Related source file is "D:/407 - 426/J11/Multiplier4x8.vhd".
+    Found 4x4-bit multiplier for signal <result>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplier4x8> synthesized.
+
+
+Synthesizing Unit <DFF8bit>.
+    Related source file is "D:/407 - 426/J11/DFF8bit.vhd".
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <DFF8bit> synthesized.
+
+
+Synthesizing Unit <Pipelined>.
+    Related source file is "D:/407 - 426/J11/Pipelined.vhd".
+Unit <Pipelined> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 2x2-bit multiplier                                    : 2
+ 4x4-bit multiplier                                    : 1
+# Registers                                            : 7
+ 2-bit register                                        : 4
+ 4-bit register                                        : 2
+ 8-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 2x2-bit multiplier                                    : 2
+ 4x4-bit multiplier                                    : 1
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Pipelined> ...
+
+Optimizing unit <DFF8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Pipelined, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Pipelined.ngr
+Top Level Output File Name         : Pipelined
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 9
+#      GND                         : 1
+#      LUT2                        : 2
+#      LUT4                        : 6
+# FlipFlops/Latches                : 24
+#      FDC                         : 24
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+# MULTs                            : 1
+#      MULT18X18                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       14  out of   3584     0%  
+ Number of Slice Flip Flops:             24  out of   7168     0%  
+ Number of 4 input LUTs:                  8  out of   7168     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    141    12%  
+ Number of MULT18X18s:                    1  out of     16     6%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 24    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 24    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.458ns (Maximum Frequency: 224.331MHz)
+   Minimum input arrival time before clock: 1.572ns
+   Maximum output required time after clock: 6.216ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.458ns (frequency: 224.331MHz)
+  Total number of paths / destination ports: 80 / 16
+-------------------------------------------------------------------------
+Delay:               4.458ns (Levels of Logic = 1)
+  Source:            FFAB/q_3 (FF)
+  Destination:       FFABCData/q_7 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: FFAB/q_3 to FFABCData/q_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.626   0.681  FFAB/q_3 (FFAB/q_3)
+     MULT18X18:A3->P7      1   2.294   0.681  Multiplier_ABCData/Mmult_result (ABCD_d<7>)
+     FDC:D                     0.176          FFABCData/q_7
+    ----------------------------------------
+    Total                      4.458ns (3.096ns logic, 1.362ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.572ns (Levels of Logic = 1)
+  Source:            Data<1> (PAD)
+  Destination:       FFData/q_1 (FF)
+  Destination Clock: clock rising
+
+  Data Path: Data<1> to FFData/q_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  Data_1_IBUF (Data_1_IBUF)
+     FDC:D                     0.176          FFData/q_1
+    ----------------------------------------
+    Total                      1.572ns (0.891ns logic, 0.681ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            FFABCData/q_7 (FF)
+  Destination:       result<7> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: FFABCData/q_7 to result<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.626   0.681  FFABCData/q_7 (FFABCData/q_7)
+     OBUF:I->O                 4.909          result_7_OBUF (result<7>)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.28 secs
+ 
+--> 
+
+Total memory usage is 261808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

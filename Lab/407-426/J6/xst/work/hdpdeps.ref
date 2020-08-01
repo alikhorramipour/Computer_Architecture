@@ -1,0 +1,10 @@
+V3 7
+FL D:/407-426/J6/DFF.vhd 2019/03/06.16:07:39 P.20131013
+EN work/DFF 1555502611 FL D:/407-426/J6/DFF.vhd PB ieee/std_logic_1164 1381692176
+AR work/DFF/Behavioral 1555502612 \
+      FL D:/407-426/J6/DFF.vhd EN work/DFF 1555502611
+FL D:/407-426/J6/ShiftRegister.vhd 2019/04/17.16:31:05 P.20131013
+EN work/ShiftRegister 1555502474 FL D:/407-426/J6/ShiftRegister.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ShiftRegister/Behavioral 1555502475 \
+      FL D:/407-426/J6/ShiftRegister.vhd EN work/ShiftRegister 1555502474 CP DFF

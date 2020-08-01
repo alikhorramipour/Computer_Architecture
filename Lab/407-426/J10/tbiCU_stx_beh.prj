@@ -1,0 +1,5 @@
+vhdl isim_temp "Decoder4x16.vhd"
+vhdl isim_temp "Decoder3x8.vhd"
+vhdl isim_temp "Counter4bit.vhd"
+vhdl isim_temp "iCU.vhd"
+vhdl isim_temp "tbiCU.vhd"

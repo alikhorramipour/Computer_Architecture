@@ -1,0 +1,4 @@
+vhdl work "FullAdder.vhd"
+vhdl work "RippleAdder.vhd"
+vhdl work "CarrySelectAdder.vhd"
+vhdl work "tbSelect.vhd"

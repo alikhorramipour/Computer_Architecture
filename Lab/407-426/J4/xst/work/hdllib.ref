@@ -1,0 +1,8 @@
+EN rippleadder NULL D:/407-426/J4/RippleAdder.vhd sub00/vhpl02 1552476157
+AR carryselectadder behavioral D:/407-426/J4/CarrySelectAdder.vhd sub00/vhpl05 1552475390
+EN fulladder NULL D:/407-426/J4/FullAdder.vhd sub00/vhpl00 1552476155
+EN lookahead NULL D:/407-426/J4/CarryLookaheadAdder.vhd sub00/vhpl06 1552475475
+EN carryselectadder NULL D:/407-426/J4/CarrySelectAdder.vhd sub00/vhpl04 1552475389
+AR lookahead behavioral D:/407-426/J4/CarryLookaheadAdder.vhd sub00/vhpl07 1552475476
+AR rippleadder behavioral D:/407-426/J4/RippleAdder.vhd sub00/vhpl03 1552476158
+AR fulladder gate_level D:/407-426/J4/FullAdder.vhd sub00/vhpl01 1552476156

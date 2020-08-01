@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 13 14:49:57 2019
+# Process ID: 5256
+# Log file: D:/407-426/J4/planAhead_run_1/planAhead.log
+# Journal file: D:/407-426/J4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/407-426/J4/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P183 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports {sum[3]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {sum[2]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {sum[1]}]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports {sum[0]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports cin]
+endgroup
+set_property package_pin "" [get_ports [list  cout]]
+startgroup
+set_property package_pin P161 [get_ports cin]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports cout]
+endgroup
+save_constraints

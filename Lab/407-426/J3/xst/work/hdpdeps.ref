@@ -1,0 +1,24 @@
+V3 16
+FL D:/407-426/J3/DFF.vhd 2019/03/06.13:48:04 P.20131013
+EN work/DFF 1551868488 FL D:/407-426/J3/DFF.vhd PB ieee/std_logic_1164 1381692176
+AR work/DFF/Behavioral 1551868489 \
+      FL D:/407-426/J3/DFF.vhd EN work/DFF 1551868488
+FL D:/407-426/J3/RippleCounter.vhd 2019/03/06.14:36:56 P.20131013
+EN work/RippleCounter 1551870469 FL D:/407-426/J3/RippleCounter.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RippleCounter/Behavioral 1551870470 \
+      FL D:/407-426/J3/RippleCounter.vhd EN work/RippleCounter 1551870469 CP TFF
+FL D:/407-426/J3/SecDet1101Moore.vhd 2019/03/06.14:51:21 P.20131013
+EN work/SeqDet1101Moore 1551871284 FL D:/407-426/J3/SecDet1101Moore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SeqDet1101Moore/Behavioral 1551871285 \
+      FL D:/407-426/J3/SecDet1101Moore.vhd EN work/SeqDet1101Moore 1551871284
+FL D:/407-426/J3/SeqDet.vhd 2019/03/06.14:54:05 P.20131013
+EN work/SeqDet1101Mealy 1551871509 FL D:/407-426/J3/SeqDet.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SeqDet1101Mealy/Behavioral 1551871510 \
+      FL D:/407-426/J3/SeqDet.vhd EN work/SeqDet1101Mealy 1551871509
+FL D:/407-426/J3/TFF.vhd 2019/03/06.14:37:41 P.20131013
+EN work/TFF 1551870467 FL D:/407-426/J3/TFF.vhd PB ieee/std_logic_1164 1381692176
+AR work/TFF/Behavioral 1551870468 \
+      FL D:/407-426/J3/TFF.vhd EN work/TFF 1551870467

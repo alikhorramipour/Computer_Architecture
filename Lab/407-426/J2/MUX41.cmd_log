@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/407-426/J2/MUX41.xst" -ofn "D:/407-426/J2/MUX41.syr" 
+xst -intstyle ise -ifn "D:/407-426/J2/MUX41.xst" -ofn "D:/407-426/J2/MUX41.syr" 

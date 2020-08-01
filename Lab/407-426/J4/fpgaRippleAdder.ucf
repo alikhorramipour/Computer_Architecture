@@ -1,0 +1,10 @@
+NET "A(0)" LOC = P183;
+NET "A(0)" LOC = P182;
+NET "A(0)" LOC = P181;
+NET "A(0)" LOC = P180;
+
+NET "B" LOC = P182;
+NET "cin" LOC = P181;
+
+NET "s" LOC = P42;
+NET "cout" LOC = P43;

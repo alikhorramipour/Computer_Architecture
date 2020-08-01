@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/407 - 426/J11/Counter2bit.xst" -ofn "D:/407 - 426/J11/Counter2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Counter2bit.ngc" Counter2bit.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Counter2bit_map.ncd Counter2bit.ngd Counter2bit.pcf 
+par -w -intstyle ise -ol high -t 1 Counter2bit_map.ncd Counter2bit.ncd Counter2bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Counter2bit.twx Counter2bit.ncd -o Counter2bit.twr Counter2bit.pcf 
+bitgen -intstyle ise -f Counter2bit.ut Counter2bit.ncd 
+xst -intstyle ise -ifn "D:/407 - 426/J11/Counter2bit.xst" -ofn "D:/407 - 426/J11/Counter2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "Counter2bit.ngc" Counter2bit.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Counter2bit_map.ncd Counter2bit.ngd Counter2bit.pcf 
+par -w -intstyle ise -ol high -t 1 Counter2bit_map.ncd Counter2bit.ncd Counter2bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Counter2bit.twx Counter2bit.ncd -o Counter2bit.twr Counter2bit.pcf 
+bitgen -intstyle ise -f Counter2bit.ut Counter2bit.ncd 

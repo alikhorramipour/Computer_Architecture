@@ -1,0 +1,28 @@
+Command line:
+   muxtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64285
+
+Wed May 29 16:00:20 2019
+
+
+ Elaboration Time: 0.0936 sec
+
+ Current Memory Usage: 675.119 Meg
+
+ Total Signals          : 12
+ Total Nets             : 12
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+
+ Total Simulation Time: 0.390002 sec
+
+ Current Memory Usage: 675.119 Meg
+
+Wed May 29 16:00:47 2019
+
